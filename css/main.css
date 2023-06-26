@@ -12,6 +12,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
 
 }
 
@@ -101,10 +102,10 @@ footer {
 
 
 @media screen and (min-width:768px) {
-    /* section {
+    body {
       width: 90%;
       margin: auto; 
-    } */
+    }
 
     .flexconteiner {
         display: flex;
@@ -135,6 +136,10 @@ footer {
 /*768*/
 
 @media screen and (min-width:992px) {
+    body {
+        width: 80%;
+        margin: auto; 
+      }
 
     figure {
         width: calc(33% - 10px)
